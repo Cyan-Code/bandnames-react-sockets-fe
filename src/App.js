@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import { BandAdd } from './components/BandAdd';
 import { BandList } from './components/BandList';
 
-const connectSocketServer = () => {
+const connectSocketServer = () => { // cadena de coneccion
   const socket = io.connect('http://localhost:8080', {
     transports: ['websocket']
   });
