@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { BandNamesApp } from './BandNamesApp';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <BandNamesApp />,
   document.getElementById('root')
 );
 
