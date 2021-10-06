@@ -50,7 +50,7 @@ export const BandList = () => {
               className="form-control"
               value={band.name}
               onChange={(event) => cambioNombre(event, band.id)}
-              onBlur={() => onPerdioFoco(band.id, band.name)} // Anotar
+              onBlur={() => onPerdioFoco(band.id, band.name)}
             />
           </td>
           <td><h3> {band.votes} </h3></td>

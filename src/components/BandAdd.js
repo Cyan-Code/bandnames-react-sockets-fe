@@ -11,6 +11,7 @@ export const BandAdd = () => {
     if (valor.trim().length > 0) {
       socket.emit('nueva-banda', {nombre: valor})
     }
+    setValor('')
   }
 
   return (
